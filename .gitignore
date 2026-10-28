@@ -1,0 +1,18 @@
+# API keys and local settings
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+
+# Generated Chroma database
+agent_vectorstore/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
